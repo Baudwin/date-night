@@ -192,7 +192,7 @@ const toggleMusic = () => {
   };
 
   return (
-    <div className="relative min-h-screen w-full bg-gradient-to-b from-rose-50 via-neutral-50 to-amber-50">
+    <div className="relative min-h-screen w-full bg-gradient-to-b from-rose-50 via-neutral-50 to-amber-50 text-neutral-900">
       {/* 🎵 Audio element */}
       <audio ref={audioRef} loop>
         {/* Put your file inside /public and replace the name below */}
@@ -200,7 +200,7 @@ const toggleMusic = () => {
       </audio>
 
       {/* 🎵 Floating Music Button */}
-      <div className="absolute right-6 top-6 z-50">
+      <div className="absolute top-7 left-1/2 -translate-x-1/2 z-50">
         <button
           onClick={toggleMusic}
           className="rounded-full bg-white/80 backdrop-blur px-4 py-2 text-sm shadow-md hover:scale-105 transition"
@@ -297,10 +297,10 @@ const toggleMusic = () => {
               }}
               >
                   {finalChoice === "yes" ? (
-                <p className="">
+                <p className=" ">
                   Yes again 😊
                 </p>
-              ): <p>Yes I'd love to 😊</p> }
+              ): <p className="">Yes I'd love to 😊</p> }
  
                 
               </Button>
