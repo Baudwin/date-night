@@ -297,10 +297,10 @@ const toggleMusic = () => {
               }}
               >
                   {finalChoice === "yes" ? (
-                <p className=" ">
+                <p className="text-black ">
                   Yes again 😊
                 </p>
-              ): <p className="">Yes I'd love to 😊</p> }
+              ): <p className="text-black">Yes I'd love to 😊</p> }
  
                 
               </Button>
