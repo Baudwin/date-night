@@ -29,7 +29,7 @@ const toggleMusic = () => {
     setIsPlaying(false);
   } else {
     if (!hasStarted) {
-      audioRef.current.currentTime = 52;
+      audioRef.current.currentTime = 53;
       setHasStarted(true);
     }
     audioRef.current.play();
@@ -44,111 +44,110 @@ const toggleMusic = () => {
         id: "greeting",
         title: "",
         lines: [
-          { type: "hero", text: "Hello." },
-          { type: "hero", text: "Mhoro." },
-          { type: "hero", text: "Olá." },
+          { type: "hero", text: "Hello ma Heart" },
+          // { type: "hero", text: "Mhoro." },
+          // { type: "hero", text: "Olá." },
           {
             type: "body",
             text: "I made a little something for you… just because you're special and I felt like you deserved it.",
           },
         ],
       },
+
       {
         id: "homes",
-        title: "Your origin.",
+        title: "Our origin.",
         lines: [
           {
             type: "body",
-            text: "I think it’s really beautiful how you carry two homes in you — Mozambique, where you were born, and Zimbabwe, where your roots are.",
-          },
-          {
-            type: "body",
-            text: "It somehow makes you feel even more unique… like you belong to more than one place.",
-          },
-        ],
-      },
-      {
-        id: "languages",
-        title: "Knowing three languages is a huge flex.",
-        lines: [
-          {
-            type: "body",
-            text: "The fact that you speak Shona, Portuguese, and English is honestly so attractive.",
-          },
-          {
-            type: "body",
-            text: "I would love to hear you switch between all three languages at the same time lol.",
-          },
-          {
-            type: "body",
-            text: "I’m definitely learning a few words, so I don’t embarrass myself around you 😅",
+            text: `We met through this crazy, beautiful journey of life, two people who weren’t even looking, and somehow the universe decided we belonged in the same chapter.
+            I still smile every time I remember how random it all felt at first… and how right it’s felt ever since.
+            I’m so happy I found you.
+            Like, genuinely happy, the kind that sneaks up on you and stays.`,
           },
         ],
       },
-      {
-        id: "travel",
-        title: "A traveler’s spirit.",
-        image:"/my-pic.jpg",
-        lines: [
-          {
-            type: "body",
-            text: "Its no doubt that you have a traveler’s spirit, the kind of person who gets excited just thinking about new places, new streets, and new sunsets.",
-          },
-          {
-            type: "body",
-            text: "And the fact you’ve already been to France… that’s such a vibe.",
-          },
-          {
-            type: "body",
-            text: "Honestly, I hope one day we get to travel somewhere together, even if it’s just a small trip at first.",
-          },
-        ],
-      },
-      {
-        id: "movie",
-        title: "Your favorite movie genre.",
-        lines: [
-          {
-            type: "body",
-            text: "Ndinoda kuti unofarira mafirimu erudo.",
-          },
-          {
-            type: "body",
-            text: "Chimwe chinhu pamusoro peizvi chinonyaradza ... Iwe uchiri kutenda murudo rwakapfava.",
-          },
-          {
-            type: "body",
-            text: `Uye iwe uchiti yaunofarira ndeye "To All The Boys I’ve Loved Before" zvakaita kuti zvese zvinyatsonzwika.`,
-          },
-          {
-            type: "body",
-            text: "Handisati ndachiona zvisati zvaitika… asi ndichaona. Ndinoda kunzwisisa kuti sei uchidiwa nazvo.",
-          },
-        ],
-      },
+
+      // {
+      //   id: "languages",
+      //   title: "Knowing three languages is a huge flex.",
+      //   lines: [
+      //     {
+      //       type: "body",
+      //       text: "The fact that you speak Shona, Portuguese, and English is honestly so attractive.",
+      //     },
+      //     {
+      //       type: "body",
+      //       text: "I would love to hear you switch between all three languages at the same time lol.",
+      //     },
+      //     {
+      //       type: "body",
+      //       text: "I’m definitely learning a few words, so I don’t embarrass myself around you 😅",
+      //     },
+      //   ],
+      // },
+
+      // {
+      //   id: "travel",
+      //   title: "A traveler’s spirit.",
+      //   image:"/my-pic.jpg",
+      //   lines: [
+      //     {
+      //       type: "body",
+      //       text: "Its no doubt that you have a traveler’s spirit, the kind of person who gets excited just thinking about new places, new streets, and new sunsets.",
+      //     },
+      //     {
+      //       type: "body",
+      //       text: "And the fact you’ve already been to France… that’s such a vibe.",
+      //     },
+      //     {
+      //       type: "body",
+      //       text: "Honestly, I hope one day we get to travel somewhere together, even if it’s just a small trip at first.",
+      //     },
+      //   ],
+      // },
+
+      // {
+      //   id: "movie",
+      //   title: "Your favorite movie genre.",
+      //   lines: [
+      //     {
+      //       type: "body",
+      //       text: "Ndinoda kuti unofarira mafirimu erudo.",
+      //     },
+      //     {
+      //       type: "body",
+      //       text: "Chimwe chinhu pamusoro peizvi chinonyaradza ... Iwe uchiri kutenda murudo rwakapfava.",
+      //     },
+      //     {
+      //       type: "body",
+      //       text: `Uye iwe uchiti yaunofarira ndeye "To All The Boys I’ve Loved Before" zvakaita kuti zvese zvinyatsonzwika.`,
+      //     },
+      //     {
+      //       type: "body",
+      //       text: "Handisati ndachiona zvisati zvaitika… asi ndichaona. Ndinoda kunzwisisa kuti sei uchidiwa nazvo.",
+      //     },
+      //   ],
+      // },
+      
       {
         id: "date",
-        title: "Your perfect date.",
+        title: "Our perfect date.",
         lines: [
           {
             type: "body",
-            text: "You told me your perfect date is simple — a nice restaurant… and then going home to watch a movie.",
-          },
-          {
-            type: "body",
-            text: "I think that’s my favorite kind of date too. Calm. Warm. Just good vibes.",
-          },
-          {
-            type: "body",
-            text: "If you ever want to do that sometime… I’d love to take you.",
+            text: `So yeah… Sunday night?
+            Just you, me, and whatever magic the universe still has left for us.
+            I can’t wait to see you.
+            Eight(8) o’clock… don’t keep me waiting too long, okay? 💕`,
           },
         ],
       },
-        {
-      id: "answer",
-      title: "",
-      lines: [],
-    },
+    //     {
+    //   id: "answer",
+    //   title: "",
+    //   lines: [],
+    // },
     ],
     []
   );
@@ -214,7 +213,7 @@ const toggleMusic = () => {
         <div className="mb-6 flex items-center justify-between">
           <div className="flex items-center gap-2 text-sm text-neutral-600">
             <span className="text-rose-400">🌸</span>
-            <span className="font-medium">For you</span>
+            <span className="font-medium">For Mina</span>
           </div>
           <div className="text-sm text-neutral-500">
             {index + 1} / {total}
@@ -273,7 +272,7 @@ const toggleMusic = () => {
                   </div>
 
 
-            {page.id === "travel" && (
+            {/* {page.id === "travel" && (
       <div className="mt-6 overflow-hidden rounded-2xl">
         <Image
           src="/my-pic.jpg" 
@@ -283,12 +282,12 @@ const toggleMusic = () => {
           className=" object-cover rounded-2xl"
         />
       </div>
-)}
+)} */}
 
             {page.id === "date" ? (
             <div className="pt-2 flex flex-col sm:flex-row gap-3 items-start sm:items-center">
               
-              <Button
+              {/* <Button
                 className="rounded-2xl bg-pink-50 shadow py-2"
                   onClick={() => {
                 setFinalChoice("yes");
@@ -314,8 +313,8 @@ const toggleMusic = () => {
                 }}
               >
                 No, sorry
-              </Button>
-
+              </Button> */}
+{/* 
        <div className="">
         {finalChoice === "yes" && (
                 
@@ -323,13 +322,13 @@ const toggleMusic = () => {
           I still remember you said YES earlier..
         </p>
       )}
-          </div>    
+          </div>     */}
 
             </div>
 
           ) : null}
 
-    {page.id === "answer" ? (
+    {/* {page.id === "answer" ? (
   <div className="pt-2 space-y-3">
     {finalChoice === "yes" ? (
       <>
@@ -358,7 +357,7 @@ const toggleMusic = () => {
       </>
     ) : null}
   </div>
-) : null}
+) : null} */}
 
 
                 </motion.div>
@@ -409,7 +408,7 @@ const toggleMusic = () => {
         </div>
 
         <div className="mt-8 text-center text-xs text-neutral-400">
-          made with love by Baudwin ✨
+          From Jay ✨
         </div>
       </div>
     </div>
