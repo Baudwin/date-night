@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "For you",
-  description: "Something special for you - Kaylane",
+  title: "From Jay to Mina 💕",
+  description: "Something special for you, Mina",
   icons: {
     icon: [
       { url: "/favicon.ico" },
